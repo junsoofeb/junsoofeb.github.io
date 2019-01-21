@@ -3,8 +3,8 @@ bg: "check.jpg"
 layout: page
 permalink: /posts/
 title: "Archive"
-crawlertitle: "All articles"
-summary: "Posts about jekyll"
+crawlertitle: "Archive"
+summary: ""
 active: archive
 ---
 
