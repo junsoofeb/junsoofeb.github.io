@@ -2,9 +2,9 @@
 bg: "universe.jpg"
 layout: page
 title: "About"
-crawlertitle: "About"
+crawlertitle: "About Me"
 permalink: /about/
-summary: "About me"
+summary: ""
 active: about
 ---
 
