@@ -5,7 +5,7 @@ crawlertitle: "supervised learning"
 summary: "지도 학습"
 date:   2019-01-27
 categories: posts
-tags: 'supervised learning'
+tags: 'supervised_learning'
 author: parkjunsoo
 ---
 
