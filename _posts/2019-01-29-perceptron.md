@@ -22,7 +22,7 @@ author: parkjunsoo
 
 ***
 
-![perceptron](C:/Users/feb25/Desktop/gitblog/assets/images/perceptron.png)
+![perceptron](../assets/images/perceptron.png)
 
 이렇게 입력이 2개인 퍼셉트론을 생각해보자.
 
@@ -50,7 +50,7 @@ y = 1 (w1x1 + w2x2 > θ)
 
 ###### AND 게이트
 
-![and_gate](C:/Users/feb25/Desktop/gitblog/assets/images/AND.png)
+![and_gate](../assets/images/AND.png)
 
 AND게이트를 퍼셉트론으로 표현해보자.  
 이를 위해서 위의 진리표대로 작동하는 w1,w2, θ의 값을 정해보자.
