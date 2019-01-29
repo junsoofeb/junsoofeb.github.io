@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "퍼셉트론"
+crawlertitle: "perceptron"
+summary: "퍼셉트론"
+date:   2019-01-29
+categories: posts
+tags: 'deep_learning'
+author: parkjunsoo
+---
+
 #### 퍼셉트론(perceptron)
 
 퍼셉트론 알고리즘은 신경망(딥러닝)의 기원이 되는 알고리즘이다.  
