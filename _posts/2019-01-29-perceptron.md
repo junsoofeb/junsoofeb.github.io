@@ -1,7 +1,7 @@
 ---
 bg: "deep.jpg"
 layout: post
-title:  "퍼셉트론"
+title:  "1장, 퍼셉트론"
 crawlertitle: "perceptron"
 summary: "perceptron"
 date:   2019-01-29
