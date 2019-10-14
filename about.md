@@ -24,19 +24,19 @@ active: about
 ## 프로젝트
 
 ### 강화 학습
-  ㆍ racing_drone_project 
+  ㆍ racing_drone_project   
   <https://github.com/junsoofeb/racing_drone_project>
   
 ### Computer Vision
-  ㆍ credit_card_number_detection_project
+  ㆍ credit_card_number_detection_project  
   <https://github.com/junsoofeb/credit_card_number_detection_project>
-  ㆍ money_detection_and_recognition_project
+  ㆍ money_detection_and_recognition_project  
   <https://github.com/junsoofeb/money_detection_and_recognition_project>
-  ㆍ license_plate_recognition_project
+  ㆍ license_plate_recognition_project  
   <https://github.com/junsoofeb/license_plate_recognition_project>
-  ㆍ smart_alarm_clock_project
+  ㆍ smart_alarm_clock_project  
   <https://github.com/junsoofeb/smart_alarm_clock_project>
   
 ### Embedded programming
-  ㆍold_man_care_system
+  ㆍold_man_care_system  
   <https://github.com/junsoofeb/old_man_care_system>
