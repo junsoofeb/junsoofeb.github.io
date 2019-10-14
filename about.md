@@ -1,11 +1,11 @@
 ---
 bg: "universe.jpg"
 layout: page
-title: "About"
+title: "PROFILE"
 crawlertitle: "About Me"
 permalink: /about/
 summary: ""
-active: about
+active: PROFILE
 ---
 
 ## 프로필
