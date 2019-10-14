@@ -22,7 +22,7 @@ active: about
   ㆍ블록 체인  
 
 ## 프로젝트
-
+***
 ### 강화 학습
   ㆍ racing_drone_project   
   <https://github.com/junsoofeb/racing_drone_project>
