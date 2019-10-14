@@ -6,7 +6,7 @@ title: "parkjunsoo"
 summary: "공부한 것들을 아카이빙하고, 포스팅하는 개인블로그입니다."
 ---
 
-{% for post in site.posts limit: 100 %}
+{% for post in site.posts limit: 1 %}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
