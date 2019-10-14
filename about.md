@@ -30,10 +30,13 @@ active: about
 ### Computer Vision
   ㆍ credit_card_number_detection_project  
   <https://github.com/junsoofeb/credit_card_number_detection_project>
+  
   ㆍ money_detection_and_recognition_project  
   <https://github.com/junsoofeb/money_detection_and_recognition_project>
+  
   ㆍ license_plate_recognition_project  
   <https://github.com/junsoofeb/license_plate_recognition_project>
+  
   ㆍ smart_alarm_clock_project  
   <https://github.com/junsoofeb/smart_alarm_clock_project>
   
