@@ -32,7 +32,7 @@ active: PROFILE
   <https://github.com/junsoofeb/racing_drone_project>
   
 ### Computer Vision
-  ㆍ finger_length_estimation
+  ㆍ finger_length_estimation   
   <https://github.com/junsoofeb/finger_length_estimation>
   
   ㆍ credit_card_number_detectio 
