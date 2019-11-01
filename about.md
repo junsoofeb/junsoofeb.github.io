@@ -44,7 +44,7 @@ active: PROFILE
   ㆍ license_plate_recognition  
   <https://github.com/junsoofeb/license_plate_recognition_project>
   
-  ㆍ smart_alarm_clock 
+  ㆍ smart_alarm_clock   
   <https://github.com/junsoofeb/smart_alarm_clock_project>
   
 ### Embedded programming
