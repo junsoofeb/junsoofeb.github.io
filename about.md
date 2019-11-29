@@ -50,3 +50,9 @@ active: PROFILE
 ### Embedded programming
   ㆍold_man_care_system  
   <https://github.com/junsoofeb/old_man_care_system>
+  
+## 기타 활동
+
+  ㆍ ICCV 2019 NAVER PAPER DAY 참가 (2019.10.26)  
+  ㆍ 삼성SDS X 삼성물산 소셜 멘토링 참가 (2019.11.29)  
+
