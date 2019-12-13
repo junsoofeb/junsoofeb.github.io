@@ -58,5 +58,5 @@ active: PROFILE
 
   ㆍ ICCV 2019 NAVER PAPER DAY 참가 (2019.10.26)  
   ㆍ 삼성SDS X 삼성물산 소셜 멘토링 참가 (2019.11.29)  
-  ㆍ 멀티캠퍼스 Linux System Administration 수료 (2019.12.16 ~ 2019.12.20)  
+  ㆍ 멀티캠퍼스 Linux System Administration 수료 (2019.12.16 - 2019.12.20)  
 
