@@ -35,7 +35,7 @@ active: PROFILE
   ㆍ finger_length_estimation   
   <https://github.com/junsoofeb/finger_length_estimation>
   
-  ㆍ credit_card_number_detectio 
+  ㆍ credit_card_number_detection   
   <https://github.com/junsoofeb/credit_card_number_detection_project>
   
   ㆍ money_detection_and_recognition 
