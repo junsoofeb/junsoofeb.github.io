@@ -41,6 +41,9 @@ active: PROFILE
   ㆍ money_detection_and_recognition 
   <https://github.com/junsoofeb/money_detection_and_recognition_project>
   
+  ㆍ coin_detection_and_recognition  
+  <https://github.com/junsoofeb/coin_detection_and_recognition_project>
+  
   ㆍ license_plate_recognition  
   <https://github.com/junsoofeb/license_plate_recognition_project>
   
