@@ -38,10 +38,10 @@ active: PROFILE
   ㆍ credit_card_number_detection   
   <https://github.com/junsoofeb/credit_card_number_detection_project>
   
-  ㆍ money_detection_and_recognition 
+  ㆍ money_detection_and_recognition   
   <https://github.com/junsoofeb/money_detection_and_recognition_project>
   
-  ㆍ coin_detection_and_recognition  
+  ㆍ coin_detection_and_recognition   
   <https://github.com/junsoofeb/coin_detection_and_recognition_project>
   
   ㆍ license_plate_recognition  
