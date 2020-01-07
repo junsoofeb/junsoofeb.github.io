@@ -44,7 +44,7 @@ TensorFlow Object Detection API는 TensorFlow를 기반으로 구축 된 오픈 
 
 {% endhighlight %}
 
-3) tensorflow/models를 git clone을 통해 받아온다.  
+3) models를 git clone을 통해 받아온다.  
    pip install tensorflow로는 models가 포함되지 않기 때문!
 
 {% highlight js %}  
@@ -65,14 +65,14 @@ TensorFlow Object Detection API는 TensorFlow를 기반으로 구축 된 오픈 
 ###### pip install matplotlib
 {% endhighlight %}
 
-5) git clone으로 받아온 tensorflow/models에서 research 디렉토리로 이동 후,
+5) git clone으로 받아온 models에서 research 디렉토리로 이동 후,
 
 {% highlight js %}  
 
 ###### protoc object_detection/protos/\*.proto --python_out=.
 {% endhighlight %}
 
-6) 5번과 마찬가지로 tensorflow/models/research에서
+6) 5번과 마찬가지로 models/research에서
 
 {% highlight js %}  
 
@@ -80,12 +80,12 @@ TensorFlow Object Detection API는 TensorFlow를 기반으로 구축 된 오픈 
 
 ###### 6번 내용은 터미널을 열 때마다 수행해야 하는데,  
 ###### 귀찮으니 .bashrc의 맨 아래에 적어주면 좋다.  
-###### 이 때 pwd는 tensorflow/models/research의 절대경로로 바꿔서 적는다.  
-###### ex) 'home/junsoofeb/tensorflow/models/research' 가 'pwd'를 대체!
+###### 이 때 pwd는 models/research의 절대경로로 바꿔서 적는다.  
+###### ex) 'home/junsoofeb/models/research' 가 'pwd'를 대체!
 
 {% endhighlight %}
 
-7) 제대로 깔렸는지, tensorflow/models/research에서 설치 확인  
+7) 제대로 깔렸는지, models/research에서 설치 확인  
 
 {% highlight js %}  
 
