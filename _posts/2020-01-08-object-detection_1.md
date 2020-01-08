@@ -1,7 +1,7 @@
 ---
 bg: "tf.jpg"
 layout: post
-title:  "Tensorflow Object Detection API (1) 소개 및 설치"
+title:  "2020-01-08_Object_Detection_API 소개 및 설치"
 crawlertitle: "Tensorflow Object Detection API"
 summary: "Object Detection"
 date:   2020-01-08
