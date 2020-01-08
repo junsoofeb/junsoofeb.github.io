@@ -31,6 +31,9 @@ active: PROFILE
   ㆍ racing_drone  
   <https://github.com/junsoofeb/racing_drone_project>
   
+   ㆍ AUTO parking  
+  <https://github.com/junsoofeb/rc_car_AUTO_parking_project>
+  
 ### Computer Vision
   ㆍ finger_length_estimation   
   <https://github.com/junsoofeb/finger_length_estimation>
