@@ -1,0 +1,269 @@
+---
+bg: "tf.jpg"
+layout: post
+title:  "2020-01-09_Object_Detection_API 튜토리얼"
+crawlertitle: "Tensorflow Object Detection API"
+summary: "Object Detection"
+date:   2020-01-09
+categories: posts
+tags: ['Object_Detection']
+author: parkjunsoo
+---
+
+
+## Tensorflow Object Detection API (2) 튜토리얼
+***
+
+###### 아래 링크를 바탕으로 작성
+###### <https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md>
+
+#### 1. 설치는 끝, 이제 직접 사용해보자
+
+Tensorflow Object Detection API를 직접 사용해서 객체 인식을 해보자.  
+여기서는 Oxford-IIIT Pets 데이터 셋을 이용해서 여러 품종의 고양이와 개를 인식하는 시스템을 학습한다.  
+
+###### 최종 결과부터 보자면 아래와 같다. (25분간 학습)
+
+![res2](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res2.png)
+
+![res3](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res3.png)
+
+
+
+***
+
+#### 2. Google Cloud에서 프로젝트 설정
+
+###### 이번 튜토리얼은 구글 클라우드 환경에서 수행한다.
+
+##### Google Cloud에서 프로젝트 설정의 순서는 아래와 같다.
+
+{% highlight js %}  
+
+1. GCP 프로젝트를 만든다.  
+<https://cloud.google.com/resource-manager/docs/creating-managing-projects>
+
+2. Google Cloud SDK를 설치한다.  
+<https://cloud.google.com/sdk/downloads>
+
+3. GCP 프로젝트에서 ML Engine API를 사용할 수 있도록 설정을 바꾼다.  
+<https://console.cloud.google.com/flows/enableapi?apiid=ml.googleapis.com,compute_component&_ga=1.73374291.1570145678.1496689256>
+
+4. GCS(Googlc Cloud Storage) bucket을 만든다.  
+<https://cloud.google.com/storage/docs/creating-buckets>
+
+{% endhighlight %}
+
+##### 위 내용은 간단하므로 관련 링크로 대신한다.
+
+***
+
+#### 3. Oxford-IIIT Pets Dataset 다운받고, GCS에 업로드하기
+
+데이터셋 다운로드 및 압축푸는 과정.
+
+{% highlight js %}  
+// models/research 디렉토리에서 수행!
+
+###### wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
+
+###### wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
+
+###### tar -xvf images.tar.gz
+
+###### tar -xvf annotations.tar.gz
+
+{% endhighlight %}
+
+압축을 풀고나면,  models/research 에 images, annotations 디렉토리에 압축이 풀어진다.
+
+#### Tensorflow Object Detection API는 데이터가 TFRecord 형식이여야 한다.
+#### Oxford-IIIT Pet 데이터 셋을 TFRecords로 변환해주는 과정이 필요하다.
+
+데이터를 TFRecord형식으로 변환하는 과정.  
+참고로 아래 명령을 수행할 때, 경고 메세지가 뜰 수 있으나, 무시하면 됨!
+
+{% highlight js %}  
+
+// models/research 디렉토리에서 수행!  
+
+###### python object_detection/dataset_tools/create_pet_tf_record.py \
+       --label_map_path=object_detection/data/pet_label_map.pbtxt \
+       --data_dir=`pwd` \
+       --output_dir=`pwd`
+
+{% endhighlight %}
+
+데이터를 TFRecord형식으로 변환하고 나면,   
+pet_faces_train.record-* 으로 시작하는 파일 10개와 pet_faces_val.record-* 으로시작하는 파일 10개가  
+models/research 디렉토리에 생성된다.
+
+###### 이제 구글 클라우드 저장소에 업로드하면 된다.
+
+###### pipeline을 곧 구성할텐데, 그 때 경로가 사용되므로 업로드하는 경로를 잘 기억해야함!
+
+% highlight js %}  
+
+// models/research 디렉토리에서 수행!  
+// junsoofeb 부분을 각자의 bucket 이름으로 수정!
+
+###### gsutil cp pet_faces_train.record-* gs://junsoofeb/data/
+
+###### gsutil cp pet_faces_val.record-* gs://junsoofeb/data/
+
+###### gsutil cp object_detection/data/pet_label_map.pbtxt gs://junsoofeb/data/pet_label_map.pbtxt
+
+{% endhighlight %}
+
+***
+
+#### 4. pipeline 구성하기(Configuring)
+
+Tensorflow Object Detection API는 \*.proto 같은 protobuf files을 이용해서 학습과 평가 과정을 구성한다.  
+
+크게 보면  Config file은 5가지 부분으로 나눌 수 있다.
+
+###### 1. model config
+학습할 모델이 어떤 유형인지 정의한다.  
+
+###### 2. train config
+어떤 파라미터가 학습 모델의 파라미터로 사용되어야 하는지 결정한다.
+
+###### 3. eval config
+어떤 행렬의 집합이 평가 때 보고될 것인지 결정한다.
+
+###### 4. train input config
+어떤 데이터 셋으로 모델이 학습할 것인지 정의한다.
+
+###### 5. eval input config
+어떤 데이터 셋으로 모델이 평가받을지 정의한다.  
+일반적으로 training input data와는 다르게 설정한다.  
+
+
+##### 튜토리얼에서는 이미 정의된 pipeline 템플릿을 사용한다.
+##### models/research/object_detection/samples/configs 디렉토리에 있다.
+##### 튜토리얼에서는 faster_rcnn_resnet101_pets.config 를 이용한다.
+
+
+{% highlight js %}  
+
+faster_rcnn_resnet101_pets.config를 vi 등을 통해 편집한다.  
+파일 안에는 {PATH_TO_BE_CONFIGURED} 라는 부분이 있는데, 이 부분을 고쳐야한다.  
+gs://junsoofeb/data/ 로 고치면 된다.
+// junsoofeb 부분을 각자의 bucket 이름으로 수정!
+
+###### 즉, faster_rcnn_resnet101_pets.config를 열고  
+###### {PATH_TO_BE_CONFIGURED}를 gs://junsoofeb/data/ 로 편집!
+
+{% endhighlight %}
+
+###### 편집이 끝났으면, models/research에서 아래를 수행한다.
+###### 경로를 구성하고, GCS에 업로드하는 과정이다.
+
+{% highlight js %}  
+
+sed -i "s|PATH_TO_BE_CONFIGURED|"gs://${YOUR_GCS_BUCKET}"/data|g" \
+    object_detection/samples/configs/faster_rcnn_resnet101_pets.config
+
+gsutil cp object_detection/samples/configs/faster_rcnn_resnet101_pets.config \
+    gs://${YOUR_GCS_BUCKET}/data/faster_rcnn_resnet101_pets.config
+
+{% endhighlight %}
+
+***
+
+#### 5. Google Cloud Storage Bucket 들어가서 확인하기
+
+지금까지 과정을 잘 수행했다면, GCS Bucket의 구조는 아래와 같을 것이다.
+
+{% highlight js %}  
+
+junsoofeb/  
+  + data/  
+    - faster_rcnn_resnet101_pets.config  
+    - model.ckpt.index  
+    - model.ckpt.meta  
+    - model.ckpt.data-00000-of-00001  
+    - pet_label_map.pbtxt  
+    - pet_faces_train.record-*  
+    - pet_faces_val.record-*  
+    등
+
+{% endhighlight %}
+
+***
+
+#### 6. Google Cloud ML Engine에서 학습 및 평가 시작하기.
+
+이제 학습을 시작할 차례인데, 시작하기 위해서 2가지 작업이 필요하다.
+
+##### 1. Tensorflow Object Detection 코드를 포장해야 한다.  
+##### 2. Google Cloud ML 작업에 대한 클러스터 구성을 작성해야 한다.
+
+먼저, Tensorflow Object Detection 코드를 포장은 아래와 같이 할 수 있다.
+{% highlight js %}  
+
+// models/research 디렉토리에서 수행!  
+
+bash object_detection/dataset_tools/create_pycocotools_package.sh /tmp/pycocotools  
+python setup.py sdist  
+(cd slim && python setup.py sdist)
+
+{% endhighlight %}
+
+위의 명령을 수행하면,  
+python packages dist/object_detection-0.1.tar.gz, slim/dist/slim-0.1.tar.gz, and /tmp/pycocotools/pycocotools-2.0.tar.gz.  
+를 생성한다.
+
+
+그 다음, Cloud ML에서 학습을 진행하기 위해서는, 클러스터 구성을 해야하는데,  
+튜토리얼에서 사용할 구성 파일은 object_detection/samples/cloud/cloud.yml 에 있다.  
+
+###### 튜토리얼은 1.12 런타임 버전을 지원한다고 한다.
+
+###### 이제 학습과 평가를 시작하자, 아래 코드를 수행하면 된다.
+{% highlight js %}  
+
+// models/research 디렉토리에서 수행!  
+// junsoofeb 부분을 각자의 bucket 이름으로 수정!
+
+gcloud ml-engine jobs submit training `whoami`_object_detection_pets_`date +%m_%d_%Y_%H_%M_%S` \
+    --runtime-version 1.12 \
+    --job-dir=gs://junsoofeb/model_dir \
+    --packages dist/object_detection-0.1.tar.gz,slim/dist/slim-0.1.tar.gz,/tmp/pycocotools/pycocotools-2.0.tar.gz \
+    --module-name object_detection.model_main \
+    --region us-central1 \
+    --config object_detection/samples/cloud/cloud.yml \
+    -- \
+    --model_dir=gs://junsoofeb/model_dir \
+    --pipeline_config_path=gs://junsoofeb/data/faster_rcnn_resnet101_pets.config
+
+{% endhighlight %}
+
+***
+
+#### 7. Tensorboard를 사용해서 모니터링하기.
+
+{% highlight js %}  
+
+// 이 코드는 local에서 처음 딱 한번만 수행하면 된다.
+gcloud auth application-default login
+
+tensorboard --logdir=gs://junsoofeb/model_dir
+
+{% endhighlight %}
+
+***
+#### 8. 튜토리얼 마무리
+
+튜토리얼이기 때문에 한 30분만 학습시켜보자 하고 결과를 봤더니, 잘 학습되었음을 확인하였다.
+
+###### 25분간 학습한 결과이다.
+
+![res0](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res0.png)
+
+![res1](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res1.png)
+
+![res2](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res2.png)
+
+![res3](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/res3.png)
