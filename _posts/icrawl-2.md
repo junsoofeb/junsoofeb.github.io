@@ -1,0 +1,70 @@
+---
+bg: "c.png"
+layout: post
+title:  "2020-01-10_icrawl (2) 크롤링한 이미지 크기 및 형식 통일"
+crawlertitle: "icrawl usage"
+summary: "crawling"
+date:   2020-01-10
+categories: posts
+tags: ['crawling']
+author: parkjunsoo
+---
+
+
+## icrawler 사용 후 이미지 형식 통일하기
+***
+
+
+#### 1. imagemagick 설치
+
+이미지 형식 변환을 위해 imagemagick을 설치한다.
+
+{% highlight js %}  
+
+###### sudo apt-get update  
+###### sudo apt-get install imagemagick
+
+{% endhighlight %}
+
+
+그리고 빠른 속도를 위해서 아래의 패키지를 설치한다.
+
+{% highlight js %}  
+
+###### sudo apt-get install moreutils  
+###### sudo apt-get install parallel
+
+{% endhighlight %}
+
+#### 2. 원하는 이미지 크기와 이미지 형식으로 통일시키기 (640X480 \*.jpg라고 가정)
+
+
+{% highlight js %}  
+
+find . -name '\*.png' | parallel 'convert {.}.png {.}.jpg && rm {}'
+
+// 현재 디렉토리에서 \*.png 파일들을 찾고, 찾은 파일을 png에서 jpg로 변경한 후에, png 파일을 삭제한다.
+
+
+find . -name '\*.jpeg' | parallel 'convert {.}.jpeg {.}.jpg && rm {}'
+
+// 현재 디렉토리에서 \*.jpeg 파일들을 찾고, 찾은 파일을 jpeg에서 jpg로 변경한 후에, jpeg 파일을 삭제한다.
+
+find . -name '\*.jpg' | parallel 'convert -resize "640x480!" {.}.jpg  {.}.jpg'
+
+// 크기를 640X480 으로 변환한다.  
+// 열 수 없는 파일은 에러가 뜨고, 나머지 이미지에 대해서 변환하게 됨!  
+// "640X480!" 에서 !를 줘야 절대 크기로 변환된다. 480X640으로 될 일이 없도록 해준다.  
+
+{% endhighlight %}
+
+***
+
+#### 3. 결과
+
+열 수 없는 이미지를 제외하고,  
+모든 이미지가 jpg형식에 640X480으로 변환!
+
+![c3](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/c3.png)
+
+![c4](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/c4.png)
