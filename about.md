@@ -30,46 +30,46 @@ active: PROFILE
 ***
 ### 강화 학습 및 로보틱스
   * racing_drone  
-  + <https://github.com/junsoofeb/racing_drone_project>
+   + <https://github.com/junsoofeb/racing_drone_project>
   
   * AUTO parking  
-  + <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
+   + <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
   
   * separate_garbage_collection_robotARM  
-  + <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
+   + <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
   
 ### Computer Vision
   * AUTO_labeling   
-  + <https://github.com/junsoofeb/AUTO_labeling_project>  
+   + <https://github.com/junsoofeb/AUTO_labeling_project>  
 
   * finger_length_estimation   
-  + <https://github.com/junsoofeb/finger_length_estimation>
+   + <https://github.com/junsoofeb/finger_length_estimation>
   
   * credit_card_number_detection   
-  + <https://github.com/junsoofeb/credit_card_number_detection_project>
+   + <https://github.com/junsoofeb/credit_card_number_detection_project>
   
   * money_detection_and_recognition   
-  + <https://github.com/junsoofeb/money_detection_and_recognition_project>
+   + <https://github.com/junsoofeb/money_detection_and_recognition_project>
   
   * coin_detection_and_recognition   
-  + <https://github.com/junsoofeb/coin_detection_and_recognition_project>
+   + <https://github.com/junsoofeb/coin_detection_and_recognition_project>
   
   * license_plate_recognition  
-  + <https://github.com/junsoofeb/license_plate_recognition_project>
+   + <https://github.com/junsoofeb/license_plate_recognition_project>
   
   * smart_alarm_clock   
-  + <https://github.com/junsoofeb/smart_alarm_clock_project>
+   + <https://github.com/junsoofeb/smart_alarm_clock_project>
   
 ### Embedded programming
   * old_man_care_system  
-  + <https://github.com/junsoofeb/old_man_care_system>
+   + <https://github.com/junsoofeb/old_man_care_system>
   
   
 ***
 
 ## 기타 활동
 
-  ㆍ ICCV 2019 NAVER PAPER DAY 참가 (2019.10.26)  
-  ㆍ 삼성SDS X 삼성물산 소셜 멘토링 참가 (2019.11.29)  
-  ㆍ 멀티캠퍼스 Linux System Administration 수료 (2019.12.16 ~ 2019.12.20)  
+  * ICCV 2019 NAVER PAPER DAY 참가 (2019.10.26)  
+  * 삼성SDS X 삼성물산 소셜 멘토링 참가 (2019.11.29)  
+  * 멀티캠퍼스 Linux System Administration 수료 (2019.12.16 ~ 2019.12.20)  
 
