@@ -29,7 +29,7 @@ active: PROFILE
 
 ***
 ### 강화 학습 및 로보틱스
- · racing_drone   
+  · racing_drone   
  <https://github.com/junsoofeb/racing_drone_project>
     
   · AUTO parking  
