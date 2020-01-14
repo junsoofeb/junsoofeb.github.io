@@ -27,14 +27,20 @@ active: PROFILE
 ## 프로젝트
 
 ***
-### 강화 학습
+### 강화 학습 및 로보틱스
   ㆍ racing_drone  
   <https://github.com/junsoofeb/racing_drone_project>
   
    ㆍ AUTO parking  
-  <https://github.com/junsoofeb/rc_car_AUTO_parking_project>
+  <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
+  
+   ㆍ separate_garbage_collection_robotARM  
+  <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
   
 ### Computer Vision
+  ㆍ AUTO_labeling   
+  <https://github.com/junsoofeb/AUTO_labeling_project>  
+
   ㆍ finger_length_estimation   
   <https://github.com/junsoofeb/finger_length_estimation>
   
