@@ -20,49 +20,49 @@ active: PROFILE
   
 ## 관심분야
 
-  ㆍ강화 학습  
-  ㆍ컴퓨터 비전    
-  ㆍ로보틱스   
+  * 강화 학습  
+  * 컴퓨터 비전    
+  * 로보틱스   
   
 ***
 ## 프로젝트
 
 ***
 ### 강화 학습 및 로보틱스
-  ㆍ racing_drone  
-  <https://github.com/junsoofeb/racing_drone_project>
+  * racing_drone  
+  + <https://github.com/junsoofeb/racing_drone_project>
   
-   ㆍ AUTO parking  
-  <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
+  * AUTO parking  
+  + <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
   
-   ㆍ separate_garbage_collection_robotARM  
-  <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
+  * separate_garbage_collection_robotARM  
+  + <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
   
 ### Computer Vision
-  ㆍ AUTO_labeling   
-  <https://github.com/junsoofeb/AUTO_labeling_project>  
+  * AUTO_labeling   
+  + <https://github.com/junsoofeb/AUTO_labeling_project>  
 
-  ㆍ finger_length_estimation   
-  <https://github.com/junsoofeb/finger_length_estimation>
+  * finger_length_estimation   
+  + <https://github.com/junsoofeb/finger_length_estimation>
   
-  ㆍ credit_card_number_detection   
-  <https://github.com/junsoofeb/credit_card_number_detection_project>
+  * credit_card_number_detection   
+  + <https://github.com/junsoofeb/credit_card_number_detection_project>
   
-  ㆍ money_detection_and_recognition   
-  <https://github.com/junsoofeb/money_detection_and_recognition_project>
+  * money_detection_and_recognition   
+  + <https://github.com/junsoofeb/money_detection_and_recognition_project>
   
-  ㆍ coin_detection_and_recognition   
-  <https://github.com/junsoofeb/coin_detection_and_recognition_project>
+  * coin_detection_and_recognition   
+  + <https://github.com/junsoofeb/coin_detection_and_recognition_project>
   
-  ㆍ license_plate_recognition  
-  <https://github.com/junsoofeb/license_plate_recognition_project>
+  * license_plate_recognition  
+  + <https://github.com/junsoofeb/license_plate_recognition_project>
   
-  ㆍ smart_alarm_clock   
-  <https://github.com/junsoofeb/smart_alarm_clock_project>
+  * smart_alarm_clock   
+  + <https://github.com/junsoofeb/smart_alarm_clock_project>
   
 ### Embedded programming
-  ㆍold_man_care_system  
-  <https://github.com/junsoofeb/old_man_care_system>
+  * old_man_care_system  
+  + <https://github.com/junsoofeb/old_man_care_system>
   
   
 ***
