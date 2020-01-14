@@ -14,7 +14,7 @@ active: PROFILE
   ㆍ서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
   ㆍSCALAR LAB 학부연구생 2019.02 ~  
   ㆍ블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
-      <https://blockpost.com/tech/20531/>
+    ㄴ---> <https://blockpost.com/tech/20531/>   
   
 ***
   
