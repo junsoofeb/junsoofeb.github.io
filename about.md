@@ -17,6 +17,10 @@ active: PROFILE
   * SCALAR LAB 학부연구생 2019.02 ~  
   * 블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
     + <https://blockpost.com/tech/20531/>   
+  * Git hub  
+    + <https://github.com/junsoofeb>   
+  * contact  
+    + junsoo.feb@gmail.com
   
 ***
   
