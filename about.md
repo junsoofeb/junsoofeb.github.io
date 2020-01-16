@@ -12,9 +12,6 @@ active: PROFILE
 
 ![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="200" height="200" .alignleft}
 
-이 콘텐츠를 블로그나 웹사이트 또는 인쇄물의 콘텐츠로 사용하면 저작권 문제로 처벌 받을 수 있습니다.
-원본: https://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/ Copyright © 칼킨
-
   * 서울 홍익대학교 법과대학 사법(비즈니스ㆍ정보법)전공 재학 중  
   * 서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
   * SCALAR LAB 학부연구생 2019.02 ~  
