@@ -19,7 +19,7 @@ active: PROFILE
     + <https://blockpost.com/tech/20531/>   
   * Git hub  
     + <https://github.com/junsoofeb>   
-  * contact  
+  * Contact  
     + junsoo.feb@gmail.com
   
 ***
