@@ -35,8 +35,8 @@ active: PROFILE
   · AUTO parking  
   <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
       
-  · separate_garbage_collection_robotARM  
-  <https://github.com/junsoofeb/separate_garbage_collection_robotARM>  
+  · waste_sorting_ROBOT_ARM  
+  <https://github.com/junsoofeb/waste_sorting_ROBOT_ARM>  
      
 ### Computer Vision
   · AUTO_labeling   
