@@ -29,8 +29,8 @@ active: PROFILE
 ***
 ## Projects
 
-***
-### 강화 학습 및 로보틱스
+
+### RL and Robotics
   · racing_drone   
  <https://github.com/junsoofeb/racing_drone_project>
     
