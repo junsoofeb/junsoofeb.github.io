@@ -8,7 +8,7 @@ summary: ""
 active: PROFILE
 ---
 
-## About Me
+## junsoo Park
 
 ![me](img src="https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png" width="60%")
 
@@ -20,14 +20,14 @@ active: PROFILE
   
 ***
   
-## 관심분야
+## Interests field
 
   * 강화 학습  
   * 컴퓨터 비전    
   * 로보틱스   
   
 ***
-## 프로젝트
+## Projects
 
 ***
 ### 강화 학습 및 로보틱스
