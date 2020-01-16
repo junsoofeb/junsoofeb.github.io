@@ -10,7 +10,7 @@ active: PROFILE
 
 ## junsoo Park
 
-![me](img src="https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png" width="60%")
+![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png)
 
   * 서울 홍익대학교 법과대학 사법(비즈니스ㆍ정보법)전공 재학 중  
   * 서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
