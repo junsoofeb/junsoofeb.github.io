@@ -1,5 +1,5 @@
 ---
-bg: "universe.jpg"
+bg: "uni.jpg"
 layout: page
 title: "PROFILE"
 crawlertitle: "About Me"
