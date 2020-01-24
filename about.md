@@ -16,10 +16,11 @@ active: PROFILE
   * 서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
   * SCALAR LAB 학부연구생 2019.02 ~  
   * 외주 프로젝트
-    + 홍익대학교 기계·시스템디자인공학과 졸업 프로젝트 中 손가락 크기 예측 프로그램 개발
-      -<https://github.com/junsoofeb/finger_length_estimation>  
-  * 블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
-    + <https://blockpost.com/tech/20531/>   
+    + 홍익대학교 기계·시스템디자인공학과 졸업 프로젝트 中 손가락 크기 예측 프로그램 개발  
+      <https://github.com/junsoofeb/finger_length_estimation>  
+  * 대외활동
+    + 블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
+      <https://blockpost.com/tech/20531/>   
   * Git hub  
     + <https://github.com/junsoofeb>   
   * Contact  
@@ -29,9 +30,9 @@ active: PROFILE
   
 ## Interests field
 
-  * 강화 학습  
-  * 컴퓨터 비전    
-  * 로보틱스   
+  * Reinforcement Learning 
+  * Computer Vision
+  * Robotics  
   
 ***
 ## Projects
