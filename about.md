@@ -2,19 +2,22 @@
 bg: "uni.jpg"
 layout: page
 title: "PROFILE"
-crawlertitle: "About Me"
+crawlertitle: "PARKJUNSOO"
 permalink: /about/
 summary: ""
 active: PROFILE
 ---
 
-## junsoo Park
+## PARKJUNSOO
 
 ![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="200" height="200"}
 
   * 서울 홍익대학교 법과대학 사법(비즈니스ㆍ정보법)전공 재학 중  
   * 서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
   * SCALAR LAB 학부연구생 2019.02 ~  
+  * 외주 프로젝트
+    + 홍익대학교 기계·시스템디자인공학과 졸업 프로젝트 中 손가락 크기 예측 프로그램 개발
+      -<https://github.com/junsoofeb/finger_length_estimation>  
   * 블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
     + <https://blockpost.com/tech/20531/>   
   * Git hub  
@@ -35,21 +38,18 @@ active: PROFILE
 
 
 ### RL and Robotics
+  · waste_sorting_ROBOT_ARM  
+  <https://github.com/junsoofeb/waste_sorting_ROBOT_ARM>   
+  
   · racing_drone   
- <https://github.com/junsoofeb/racing_drone_project>
+ <https://github.com/junsoofeb/racing_drone_project>  
     
   · AUTO parking  
   <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
-      
-  · waste_sorting_ROBOT_ARM  
-  <https://github.com/junsoofeb/waste_sorting_ROBOT_ARM>  
      
 ### Computer Vision
   · AUTO_labeling   
   <https://github.com/junsoofeb/AUTO_labeling_project>  
-    
-  · finger_length_estimation   
-  <https://github.com/junsoofeb/finger_length_estimation>
       
   · credit_card_number_detection   
   <https://github.com/junsoofeb/credit_card_number_detection_project>
