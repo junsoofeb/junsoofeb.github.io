@@ -8,25 +8,33 @@ summary: ""
 active: PROFILE
 ---
 
-## PARKJUNSOO
+## JunSoo Park
 
 ![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="200" height="200"}
 
-  * 서울 홍익대학교 법과대학 사법(비즈니스ㆍ정보법)전공 재학 중  
-  * 서울 홍익대학교 공과대학 컴퓨터공학전공 복수전공   
-  * SCALAR LAB 학부연구생 2019.02 ~ 현재  
-  * 외주 프로젝트
-    + 홍익대학교 기계·시스템디자인공학과 졸업 프로젝트 中 손 크기 예측 프로그램 개발  
+## Education 
+  * Hongik Univ., Law and Computer Engineering (double major)  
+    + 2014.03 ~ Present  
+  
+## Undergraduate research student 
+  * Hongik Univ., SCALAR Lab (Do mainly Computer Vision part)  
+    + 2019.02 ~ Present  
+   
+## Outsourcing Project
+  * Hongik Univ., Mechanical and System Design Engineering Graduation project, (subsection)    
       <https://github.com/junsoofeb/finger_length_estimation>  
-  * 대외활동
-    + 블록체인OS BOSCOIN 캠보스 1기 수료 및 팀부문 최우수상   
+      
+ ## External activities
+  * BlockChainOS (BOSCOIN) CAMBOS  
+    + First Prize in Team division   
+    + 2018.09 ~ 2019.01   
       <https://blockpost.com/tech/20531/>   
+
+## Personal
   * Git hub  
     + <https://github.com/junsoofeb>   
   * Contact  
     + junsoo.feb@gmail.com
-  
-***
   
 ## Interests field
 
@@ -34,9 +42,8 @@ active: PROFILE
   * Computer Vision
   * Robotics  
   
-***
-## Projects
 
+## Personal Projects
 
 ### RL and Robotics
   · waste_sorting_ROBOT_ARM  
@@ -72,11 +79,8 @@ active: PROFILE
   · old_man_care_system  
   <https://github.com/junsoofeb/old_man_care_system>
     
-  
-  
-***
 
-## 기타 활동
+## Other activities
 
   * ICCV 2019 NAVER PAPER DAY 참가 (2019.10.26)  
   * 삼성SDS X 삼성물산 소셜 멘토링 참가 (2019.11.29)  
