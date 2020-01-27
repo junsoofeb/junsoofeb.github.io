@@ -10,7 +10,7 @@ active: PROFILE
 
 ## JunSoo Park
 
-![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="200" height="200"}
+![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="250" height="250"}
 
 ## Education 
   * Hongik Univ., Law and Computer Engineering (double major)  
@@ -19,12 +19,17 @@ active: PROFILE
 ## Undergraduate research student 
   * Hongik Univ., SCALAR Lab (Do mainly Computer Vision part)  
     + 2019.02 ~ Present  
+    
+## Interests field
+  * Reinforcement Learning 
+  * Computer Vision
+  * Robotics  
    
 ## Outsourcing Project
   * Hongik Univ., Mechanical and System Design Engineering Graduation project, (subsection)    
       <https://github.com/junsoofeb/finger_length_estimation>  
       
- ## External activities
+## External activities
   * BlockChainOS (BOSCOIN) CAMBOS  
     + First Prize in Team division   
     + 2018.09 ~ 2019.01   
@@ -35,15 +40,8 @@ active: PROFILE
     + <https://github.com/junsoofeb>   
   * Contact  
     + junsoo.feb@gmail.com
-  
-## Interests field
-
-  * Reinforcement Learning 
-  * Computer Vision
-  * Robotics  
-  
-
-## Personal Projects
+ 
+## Projects
 
 ### RL and Robotics
   · waste_sorting_ROBOT_ARM  
