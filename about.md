@@ -42,10 +42,10 @@ active: PROFILE
   · waste_sorting_ROBOT_ARM  
   <https://github.com/junsoofeb/waste_sorting_ROBOT_ARM>   
   
-  · racing_drone   
+  · racing_drone <진행 중>   
  <https://github.com/junsoofeb/racing_drone_project>  
     
-  · AUTO parking  
+  · AUTO parking <진행 중>   
   <https://github.com/junsoofeb/rc_car_AUTO_parking_project>  
      
 ### Computer Vision
