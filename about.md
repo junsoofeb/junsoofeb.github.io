@@ -9,6 +9,11 @@ active: PROFILE
 ---
 
 ## JunSoo Park
+  * Git hub  
+    + <https://github.com/junsoofeb>   
+  * Contact  
+    + junsoo.feb@gmail.com
+ 
 
 ![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="250" height="250"}
 
@@ -35,12 +40,6 @@ active: PROFILE
     + 2018.09 ~ 2019.01   
       <https://blockpost.com/tech/20531/>   
 
-## Personal
-  * Git hub  
-    + <https://github.com/junsoofeb>   
-  * Contact  
-    + junsoo.feb@gmail.com
- 
 ## Projects
 ***
 ### RL and Robotics
