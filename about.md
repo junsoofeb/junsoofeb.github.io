@@ -17,11 +17,9 @@ active: PROFILE
 ![meme](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/meme.jpg){: width="250" height="250"}
 
 ## Education 
-  * Hongik Univ., Law and Computer Engineering (double major)  
+  * Hongik Univ., Law and Computer Engineering (Double major)  
     + 2014.03 -- Present  
-  
-## Undergraduate research student 
-  * Hongik Univ., SCALAR Lab (Do mainly Computer Vision part)  
+  * Hongik Univ., SCALAR Lab, Undergraduate research student (Do mainly Computer Vision part)  
     + 2019.02 -- Present  
     
 ## Interests field  
