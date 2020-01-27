@@ -15,15 +15,15 @@ active: PROFILE
     + junsoo.feb@gmail.com
  
 
-![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="250" height="250"}
+![meme](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/meme.jpg){: width="250" height="250"}
 
 ## Education 
   * Hongik Univ., Law and Computer Engineering (double major)  
-    + 2014.03 ~ Present  
+    + 2014.03 -- Present  
   
 ## Undergraduate research student 
   * Hongik Univ., SCALAR Lab (Do mainly Computer Vision part)  
-    + 2019.02 ~ Present  
+    + 2019.02 -- Present  
     
 ## Interests field  
   * Computer Vision
@@ -37,7 +37,7 @@ active: PROFILE
 ## External activities
   * BlockChainOS (BOSCOIN) CAMBOS  
     + First Prize in Team division   
-    + 2018.09 ~ 2019.01   
+    + 2018.09 -- 2019.01   
       <https://blockpost.com/tech/20531/>   
 
 ## Projects
