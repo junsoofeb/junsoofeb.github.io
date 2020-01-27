@@ -20,9 +20,9 @@ active: PROFILE
   * Hongik Univ., SCALAR Lab (Do mainly Computer Vision part)  
     + 2019.02 ~ Present  
     
-## Interests field
-  * Reinforcement Learning 
+## Interests field  
   * Computer Vision
+  * Reinforcement Learning 
   * Robotics  
    
 ## Outsourcing Project
@@ -42,7 +42,7 @@ active: PROFILE
     + junsoo.feb@gmail.com
  
 ## Projects
-
+***
 ### RL and Robotics
   · waste_sorting_ROBOT_ARM  
   <https://github.com/junsoofeb/waste_sorting_ROBOT_ARM>   
@@ -77,6 +77,7 @@ active: PROFILE
   · old_man_care_system  
   <https://github.com/junsoofeb/old_man_care_system>
     
+***
 
 ## Other activities
 
