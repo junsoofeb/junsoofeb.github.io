@@ -8,12 +8,11 @@ summary: ""
 active: PROFILE
 ---
 
-## JunSoo Park
-  * Git hub  
-    + <https://github.com/junsoofeb>   
+## JunSoo Park 
   * Contact  
     + junsoo.feb@gmail.com
- 
+  * Git hub  
+    + <https://github.com/junsoofeb>  
 
 ![meme](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/meme.jpg){: width="250" height="250"}
 
