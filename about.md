@@ -14,7 +14,7 @@ active: PROFILE
   * Git hub  
     + <https://github.com/junsoofeb>  
 
-![mmmm](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/mmmm.png){: width="250" height="250"}
+![me](https://github.com/junsoofeb/junsoofeb.github.io/raw/master/assets/images/me.png){: width="250" height="250"}
 
 ## Education 
   * Hongik Univ., Law and Computer Engineering (Double major)  
