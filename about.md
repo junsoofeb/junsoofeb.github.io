@@ -35,7 +35,7 @@ active: PROFILE
   * BlockChainOS (BOSCOIN) CAMBOS  
     + First Prize in Team division   
     + 2018.09 -- 2019.01   
-      <https://blockpost.com/tech/20531/>   
+      <http://www.bloter.net/archives/321292>   
 
 ## Projects
 ***
